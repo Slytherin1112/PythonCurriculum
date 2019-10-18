@@ -19,7 +19,7 @@ Below we outline the specific topics we will be covering in this boot camp.
     <li>Interacting with APIs</li>
   </ul>
 <li>Data Cleaning</li>
-<li>Supervised Learning Techniques</li>
+<li>Supervised Learning</li>
   <ul>
     <li>Regression</li>
       <ul>
@@ -41,7 +41,20 @@ Below we outline the specific topics we will be covering in this boot camp.
         <li>Support Vector Machines</li>
       </ul>
   </ul>
-<li>Unsupervised Learning Techniques</li>
+<li>Unsupervised Learning</li>
+  <ul>
+    <li>Dimensionality Reduction</li>
+      <ul>
+        <li>Principal Components Analysis</li>
+        <li>t-SNE</li>
+      </ul>
+    <li>Clustering</li>
+      <ul>
+        <li>k-Means</li>
+        <li>Hierarchical</li>
+        <li>DBScan</li>
+      </ul>
+  </ul>  
 <li>Presenting Results</li>
 </ul>
 
