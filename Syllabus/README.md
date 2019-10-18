@@ -13,8 +13,34 @@ that can be adapted to nearly every data science setting.
 Below we outline the specific topics we will be covering in this boot camp.
 <ul>
 <li>Data Gathering Techniques</li>
+  <ul>
+    <li>Searching common online sources for data (example Kaggle.com)</li>
+    <li>Basic web scraping with BeautifulSoup</li>
+    <li>Interacting with APIs</li>
+  </ul>
 <li>Data Cleaning</li>
 <li>Supervised Learning Techniques</li>
+  <ul>
+    <li>Regression</li>
+      <ul>
+        <li>Simple Linear Regression</li>
+        <li>Multiple Linear Regression</li>
+        <li>Polynomial Regression</li>
+        <li>Ridge Regression</li>
+        <li>LASSO</li>
+        <li>Kernel Regression (if time permits)</li>
+        <li>Local Regression (if time permits)</li>
+      </ul>
+    <li>Classification</li>
+      <ul>
+        <li>Nearest Neighbor Methods</li>
+        <li>Naive Bayes</li>
+        <li>Logistic Regression</li>
+        <li>Decision Trees</li>
+        <li>Random Forests</li>
+        <li>Support Vector Machines</li>
+      </ul>
+  </ul>
 <li>Unsupervised Learning Techniques</li>
 <li>Presenting Results</li>
 </ul>
