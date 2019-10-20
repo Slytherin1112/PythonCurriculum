@@ -19,6 +19,13 @@ Below we outline the specific topics we will be covering in this boot camp.
     <li>Interacting with APIs</li>
   </ul>
 <li>Data Cleaning</li>
+  <ul>
+    <li>Data Types</li>
+    <li>Basic data exploration with pandas, and numpy</li>
+    <li>Basic plotting with matplotlib</li>
+    <li>Handling Missing Data</li>
+    <li>Common Data Transformations</li>
+  </ul>
 <li>Supervised Learning</li>
   <ul>
     <li>Regression</li>
@@ -56,11 +63,17 @@ Below we outline the specific topics we will be covering in this boot camp.
       </ul>
   </ul>  
 <li>Presenting Results</li>
+  <ul>
+    <li>Pandas for presentation</li>
+    <li>Advanced matplotlib</li>
+    <li>Plotting in seaborn</li>
+    <li>Introduction to Interactive Plotting With Python</li>
+  </ul>
 </ul>
 
 ## Course Structure
 ### Lectures
-The boot camp will meet for ten to twelve one-hour long sessions that feature an
+The boot camp will meet for twelve one-hour long sessions that feature an
 instructor. Each session the instructor will progress through a series of jupyter
 notebooks as well as prepared python code. These sessions will feature a blend
 of lecturing and working in small groups through coding examples.
