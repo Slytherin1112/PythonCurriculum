@@ -104,3 +104,15 @@ covered in said session. Completion of homework sets is not mandatory, but highl
 Each participant must complete a group project by the end of the bootcamp. Projects
 should feature the data science/machine learning skills taught in the bootcamp, or
 even feature more advanced techniques groups teach themselves outside of bootcamp.
+
+## References
+
+All lectures and homeworks draw upon the material presented in the following books:
+<a href = "http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a>
+<a href = "https://www.oreilly.com/library/view/data-science-from/9781492041122/">Data Science from Scratch</a>
+<a href = "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/">Introduction to Machine Learning with Python</a>
+<a href = "http://www.statlearning.com">An Introduction to Statistical Learning</a>
+<a href = "https://link.springer.com/book/10.1007/978-0-387-84858-7">The Elements of Statistical Learning</a>
+<a href = "https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/">Hands-On Machine Learning with Scikit-Learn and TensorFlow</a>
+<a href = "https://www.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/">Hands-On Unsupervised Learning Using Python</a>
+<a href = "http://themlbook.com">The Hundred-Page Machine Learning Book</a>
