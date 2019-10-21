@@ -82,8 +82,8 @@ Below we outline the specific topics we will be covering in this boot camp.
 
 ## Course Structure
 
-The boot camp will meet for twelve one and a half hour long sessions that feature an
-instructor. Most lectures will be feature a homework assignment that covers that
+The boot camp will meet for twelve one and a half hour long sessions that are led
+by an instructor. Most lectures will feature a homework assignment covering that
 day's materials. At the end of the twelve lectures students will be given a week to
 work on group projects. During that week lectures will be replaced with open office
 hours in which lecturers and mentors may provide guidance for the group projects.
