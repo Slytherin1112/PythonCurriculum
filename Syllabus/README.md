@@ -4,7 +4,7 @@
 The goal of our Python Boot Camp is to provide you with the skills needed to produce
 a portfolio worthy data science/machine learning project.
 
-## Course Trajectory
+## Topics to be Covered
 In fitting with our educational aim, this course will walk you through the steps
 involved in a typical data science/machine learning project. While covering a variety
 of important techniques and algorithms we will illuminate themes and motivations
@@ -69,16 +69,38 @@ Below we outline the specific topics we will be covering in this boot camp.
     <li>Plotting in seaborn</li>
     <li>Introduction to Interactive Plotting With Python</li>
   </ul>
+<li>Machine Learning Concepts</li>
+  <ul>
+    <li>Training Test Split</li>
+    <li>Loss Functions</li>
+    <li>Gradient Descent</li>
+    <li>Model Validation</li>
+    <li>Bias Variance Trade-off</li>
+    <li>Cross Validation</li>
+  </ul>
 </ul>
 
 ## Course Structure
+
+The boot camp will meet for twelve one and a half hour long sessions that feature an
+instructor. Most lectures will be feature a homework assignment that covers that
+day's materials. At the end of the twelve lectures students will be given a week to
+work on group projects. During that week lectures will be replaced with open office
+hours in which lecturers and mentors may provide guidance for the group projects.
+The boot camp will end with a presentation day for all group projects.
+
 ### Lectures
-The boot camp will meet for twelve one-hour long sessions that feature an
-instructor. Each session the instructor will progress through a series of jupyter
+Each lecture the instructor will progress through a series of jupyter
 notebooks as well as prepared python code. These sessions will feature a blend
-of lecturing and working in small groups through coding examples.
+of lecturing and working in small groups through coding examples. Students are
+encouraged to ask questions during lectures in order to ensure they understand the
+material.
 
 ### Homework
-Most sessions will have a corresponding homework set. Homework sets are not mandatory,
-but highly encouraged. Working through problems and examples on your own will enrich
-your experience in the boot camp.
+Most sessions will have a corresponding homework set that will highlight the material
+covered in said session. Completion of homework sets is not mandatory, but highly encouraged. Working through problems and examples on your own will enrich your experience in the boot camp.
+
+### Group Projects
+Each participant must complete a group project by the end of the bootcamp. Projects
+should feature the data science/machine learning skills taught in the bootcamp, or
+even feature more advanced techniques groups teach themselves outside of bootcamp.
