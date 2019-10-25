@@ -8,7 +8,7 @@ a portfolio worthy data science/machine learning project.
 In fitting with our educational aim, this course will walk you through the steps
 involved in a typical data science/machine learning project. While covering a variety
 of important techniques and algorithms we will illuminate themes and motivations
-that can be adapted to nearly every data science setting.
+that can be adapted to many data science settings.
 
 Below we outline the specific topics we will be covering in this boot camp.
 <ul>
@@ -75,7 +75,7 @@ Below we outline the specific topics we will be covering in this boot camp.
     <li>Loss Functions</li>
     <li>Gradient Descent</li>
     <li>Model Validation</li>
-    <li>Bias Variance Trade-off</li>
+    <li>Bias Variance Trade-Off</li>
     <li>Cross Validation</li>
   </ul>
 </ul>
@@ -83,8 +83,8 @@ Below we outline the specific topics we will be covering in this boot camp.
 ## Course Structure
 
 The boot camp will meet for twelve one and a half hour long sessions that are led
-by an instructor. Most lectures will feature a homework assignment covering that
-day's materials. At the end of the twelve lectures students will be given a week to
+by an instructor. Most lectures will be accompanied by a homework assignment covering that
+lecture's materials. At the end of the twelve lectures students will be given a week to
 work on group projects. During that week lectures will be replaced with open office
 hours in which lecturers and mentors may provide guidance for the group projects.
 The boot camp will end with a presentation day for all group projects.
