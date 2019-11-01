@@ -1,0 +1,370 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry} 
+
+\begin{document}
+	\noindent
+	\textbf{\Large{Daily Lesson Plans}}
+	
+	\vspace{4mm}
+	\noindent
+	In this file is outlined the flow of daily lessons for the boot camp. Each day's topics are briefly summarized with bullet points.
+	
+	
+	\vspace{4mm}
+	\noindent
+	\textit{\large{Day 1: Collecting Data}}
+	
+	\noindent
+	If we are asking students to complete an end to end data science project, they need to be able to find data. This lesson should give them the tools necessary to do that. Here is a brief outline of the flow of the lesson
+	\begin{itemize}
+		\item Briefly overview various popular online data sites, for example display Kaggle.com, show how you can find data sets, challenges, and kernels.
+		\item Introduce the beautifulsoup package.
+		\item Go through a couple simple beautiful soup examples.
+		\item Explain APIs in a nutshell.
+		\item Give one or two examples of python API packages:
+			\begin{itemize}
+				\item One where no security credentials are needed,
+				\item One that requires security credentials.
+			\end{itemize}
+		\item Basic reading and writing of data to file.
+		\item Potential HW:
+			\begin{itemize}
+				\item Find an interesting online data set and save it to your laptop.
+				\item Use beautifulsoup to scrape an online spreadsheet, or save some txt to file.
+				\item If one of the python APIs interested you practice scraping some data with it.
+			\end{itemize}
+	\end{itemize}
+	
+	
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 2: Data Types, Cleaning, and Exploration}}
+	
+	\noindent
+	We have data. Before we can make predictive models we usually have to clean or pre-process the data. In this lesson we overview common cleaning/exploration procedures.
+	\begin{itemize}
+		\item Overview of data types:
+			\begin{itemize}
+				\item Continuous data,
+				\item Categorical and Ordinal data,
+				\item Text data.
+			\end{itemize}
+		\item Continuous data:
+			\begin{itemize}
+				\item Describing and visualizing
+				\item Common scaling procedures,
+				\item Handling missing data.
+			\end{itemize}
+		\item Categorical and Ordinal data,
+			\begin{itemize}
+				\item Describing and visualizing,
+				\item Dummy variables,
+				\item Handling missing data
+			\end{itemize}
+		\item General tips and tricks for handling missing data.
+		\item Text data.
+			\begin{itemize}
+				\item Differences from numerical data,
+				\item Python strings built in methods,
+				\item Common cleaning techniques,
+				\item Resources for natural language processing.
+			\end{itemize}
+		\item When would you encounter messy data?
+			\begin{itemize}
+				\item Give examples of ``messy'' data sets.
+			\end{itemize}
+		\item Potential HW:
+			\begin{itemize}
+				\item Clean some messy data sets.
+			\end{itemize}
+	\end{itemize}
+	
+	
+	\noindent
+	
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 3: Supervised Learning - Regression 1}}
+	
+	\noindent
+	In this lesson we start supervised learning with regression modeling.
+	
+	\begin{itemize}
+		\item What is supervised learning?
+			\begin{itemize}
+				\item Using ``labeled'' data to teach a machine to generalize trends in data to ``unlabeled'' data,
+				\item Two flavors of problem: Regression and Classification.
+			\end{itemize}
+		\item What is regression?
+			\begin{itemize}
+				\item In a machine learning setting, problems where the ``labeled'' data has a continuous measure, for example predicting opening weekend ticket sales.
+				\item Be careful not to confuse with a more statistical definition, for example, logistic regression is a statistical regression model, but is most often used as a classification algorithm
+			\end{itemize}
+		\item The most basic model: Simple Linear Regression
+			\begin{itemize}
+				\item Introduce model, explain assumptions.
+				\item Give example using real data set.
+				\item Introduce Training-Test Split
+				\item Interpreting results
+				\item Model validation for Simple Linear Regression
+			\end{itemize}
+		\item Potential HW
+			\begin{itemize}
+				\item Build SLR model with new data
+				\item Lay seeds for why you might want ``multiple'' training-test splits, i.e. cross-validation
+			\end{itemize}
+	\end{itemize}
+
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 4: Supervised Learning: Regression 2}}
+	
+	\noindent
+	We build on Day 3 by extending the simple linear regression model to multiple predictors and nonlinear relationships between predictor and output. 
+	\begin{itemize}
+		\item More than one predictor: Multiple Linear Regression
+		\begin{itemize}
+			\item Introduce model, explain assumptions.
+			\item Give example, ideally extending example from SLR.
+			\item Overfitting example with synthetic data.
+			\item Discuss variable selection algorithms.
+			\item Additional model validations for MLR.
+		\end{itemize}
+		\item More than just linear relationships: Polynomial Regression
+		\item Additional topics for exploration:
+		\begin{itemize}
+			\item Handling continuous vs categorical predictors.
+			\item Data pre-processing.
+			\item cross-validation
+		\end{itemize}
+		\item Potential HW
+		\begin{itemize}
+			\item Build the ``best'' regression model possible for a given data set using the techniques covered to this point
+		\end{itemize}
+	\end{itemize}
+	
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 5: Supervised Learning: Regression 3}}
+	
+	\noindent
+	In our final regression day we cover two additional regression algorithms, these address one solution to overfitting, regularization.
+	\begin{itemize}
+		\item Overfitting to the extreme
+			\begin{itemize}
+				\item Show an example of overfitting with MLR using synthetic random data,
+				\item Show an example of overfitting with polynomial regression using synthetic data.
+			\end{itemize}
+		\item Cost functions
+			\begin{itemize}
+				\item Remind students of goal in least squares,
+				\item If not already defined, define cost/loss functions
+			\end{itemize}
+		\item Fighting overfitting
+			\begin{itemize}
+				\item Add penalty term to cost,
+				\item Introduce concept of hyperparameter
+			\end{itemize}
+		\item Ridge Regression
+		\item Lasso
+		\item Potential HW:
+			\begin{itemize}
+				\item Wrap up regression section by introducing local regression,
+				\item Introduce idea of logistic regression.
+			\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 6: Supervised Learning: Classification 1}}
+	
+	\noindent
+	We will start off classification with a general outlay of the problem. We will then progress through the general classification workflow with logistic regression.
+	
+	\noindent
+	\begin{itemize}
+		\item Explaining the Classification Problem
+		\item Logistic Regression
+			\begin{itemize}
+				\item The model,
+				\item General model validation for classification problems,
+				\item Precision vs. recall,
+				\item Confusion matrix,
+				\item ROC curve
+			\end{itemize}
+		\item Nearest Neighbors
+		\item Potential HW
+			\begin{itemize}
+				\item Build a logistic regression model,
+				\item Use CV to tune number of neighbors,
+				\item Introduce Naive Bayes.
+			\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 7: Supervised Learning: Classification 2}}
+	
+	\noindent
+	In today's lesson we learn about tree based methods for classification. We start by building a decision tree model and then branch into random forest models.
+	\begin{itemize}
+		\item What is the essence of a tree based method?
+			\begin{itemize}
+				\item We are segmenting the data to make predictions based on some sort of loss optimization criterion.
+				\item Called a tree because we can make a tree (in the graph theoretical sense) to represent the various decision rules.
+			\end{itemize}
+		\item Classification Decision Trees:
+			\begin{itemize}
+				\item The algorithm,
+				\item Give an example,
+				\item Advantages and Disadvantages.
+			\end{itemize}
+		\item Methods of Improving Decision Trees:
+			\begin{itemize}
+				\item Bagging,
+				\item Pasting,
+				\item Boosting.
+			\end{itemize}
+		\item Random Forest Models
+			\begin{itemize}
+				\item The algorithm,
+				\item Extend decision tree example,
+				\item Advantages and Disadvantages.
+			\end{itemize}
+		\item Potential HW:
+			\begin{itemize}
+				\item Build a decision tree model,
+				\item Build a Random Forest model,
+				\item Walk through using decision trees for regression tasks.
+			\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 8: Supervised Learning: Classification 3}}
+	
+	\noindent
+	In the final day of classification we wrap up with support vector machines. We will also discuss voting methods as a way to include all of the classification algorithms we have discussed.
+	\begin{itemize}
+		\item SVMs:
+			\begin{itemize}
+				\item Separating Hyperplanes,
+				\item The maximal margin classifier,
+				\item Support vector classifier,
+				\item Support machines
+			\end{itemize}
+		\item Voting Methods
+			\begin{itemize}
+				\item Summarize all techniques up to the point,
+				\item Explain idea behind the voting method,
+				\item Give example.
+			\end{itemize}
+		\item Potential HW:
+			\begin{itemize}
+				\item Solve a classification problem using SVMs,
+				\item Solve a classification problem using multiple algorithms, compare and contrast them, and then combine them into a single voting algorithm.
+			\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 9: Unsupervised Learning: Dimensionality Reduction}}
+	
+	\noindent
+	To start off the unsupervised learning portion of the course we discuss the differences between supervised and unsupervised learning. We then present dimensionality reduction techniques.
+	\begin{itemize}
+		\item Differences between supervised and unsupervised learning.
+		\item What is dimensionality reduction? Why do it?
+			\begin{itemize}
+				\item Reducing the number of variables in our data set,
+				\item Memory purposes,
+				\item Algorithm speed,
+				\item Data Visualization,
+				\item Feature Extraction.
+			\end{itemize}
+		\item Principal Components Analysis (PCA):
+			\begin{itemize}
+				\item Concept,
+				\item The algorithm,
+				\item Interpretation of results
+				\item Example for visualization,
+				\item Example for feature extraction.
+			\end{itemize}
+		\item A Sampling of manifold techniques:
+			\begin{itemize}
+				\item Isomap,
+				\item t-SNE.
+			\end{itemize}
+		\item Potential HW:
+			\begin{itemize}
+				\item Use PCA to extract import features from a dataset,
+				\item Introduce kernel or sparse PCA,
+				\item Introduce an additional manifold technique.
+				\item Work through an anomaly detection example using dimensionality reduction.
+			\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 10: Unsupervised Learning: Clustering}}
+	
+	\noindent
+	We complete the unsupervised learning section with a discussion on clustering techniques.
+	\begin{itemize}
+		\item What is clustering?
+		\begin{itemize}
+			\item Grouping of unlabeled data based on some sort of similarity measure.
+			\item Why might we want to do this?
+		\end{itemize}
+		\item k-means clustering:
+		\begin{itemize}
+			\item Give algorithm,
+			\item How to evaluate results,
+			\item Advantages and disadvantages.
+		\end{itemize}
+		\item Hierarchical clustering:
+		\begin{itemize}
+			\item The algorithm,
+			\item Dendograms,
+			\item Evaluating the results,
+			\item Advantages and disadvantages.
+		\end{itemize}
+		\item DBScan:
+		\begin{itemize}
+			\item The algorithm,
+			\item Evaluating the results,
+			\item Advantages and disadvantages.
+		\end{itemize}
+		\item Potential HW:
+		\begin{itemize}
+			\item Apply each of the clustering algorithms to different data sets,
+			\item Which algorithms perform ``best'' on what kinds of data sets,
+			\item Work through a group segmentation example using clustering.
+		\end{itemize}
+	\end{itemize}
+	
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 11: Presenting Results}}
+	
+	\noindent 
+	In this day we discuss more advanced plotting techniques that can help participants communicate their results to others. We will also cover any presentation tips using pandas that have not already been covered.
+	\begin{itemize}
+		\item More advanced matplotlib.
+		\item Diving into seaborn.
+		\item Introduction to interactive plotting in bokeh.
+		\item Odds and ends left to cover with pandas.
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 12: Leave this day open for spillover from previous days}}
+	
+	\vspace{2mm}
+	\noindent
+	\textbf{Note: it is also important for us to cover being able to run code from terminal/command line. So working that in at some point would be good.}
+\end{document}

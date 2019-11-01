@@ -14,7 +14,7 @@ Below we outline the specific topics we will be covering in this boot camp.
 <ul>
 <li>Data Gathering Techniques</li>
   <ul>
-    <li>Searching common online sources for data (example Kaggle.com)</li>
+    <li>Searching common online sources for data</li>
     <li>Basic web scraping with BeautifulSoup</li>
     <li>Interacting with APIs</li>
   </ul>
