@@ -26,7 +26,13 @@
 				\item One where no security credentials are needed,
 				\item One that requires security credentials.
 			\end{itemize}
-		\item Basic reading and writing of data to file.
+		\item Common methods of storing data,
+			\begin{itemize}
+				\item csv.
+				\item tab-delimited.
+				\item json.
+				\item databases.
+			\end{itemize}
 		\item Potential HW:
 			\begin{itemize}
 				\item Find an interesting online data set and save it to your laptop.
@@ -37,56 +43,12 @@
 	
 	
 	
-	\vspace{2mm}
-	\noindent
-	\textit{\large{Day 2: Data Types, Cleaning, and Exploration}}
 	
-	\noindent
-	We have data. Before we can make predictive models we usually have to clean or pre-process the data. In this lesson we overview common cleaning/exploration procedures.
-	\begin{itemize}
-		\item Overview of data types:
-			\begin{itemize}
-				\item Continuous data,
-				\item Categorical and Ordinal data,
-				\item Text data.
-			\end{itemize}
-		\item Continuous data:
-			\begin{itemize}
-				\item Describing and visualizing
-				\item Common scaling procedures,
-				\item Handling missing data.
-			\end{itemize}
-		\item Categorical and Ordinal data,
-			\begin{itemize}
-				\item Describing and visualizing,
-				\item Dummy variables,
-				\item Handling missing data
-			\end{itemize}
-		\item General tips and tricks for handling missing data.
-		\item Text data.
-			\begin{itemize}
-				\item Differences from numerical data,
-				\item Python strings built in methods,
-				\item Common cleaning techniques,
-				\item Resources for natural language processing.
-			\end{itemize}
-		\item When would you encounter messy data?
-			\begin{itemize}
-				\item Give examples of ``messy'' data sets.
-			\end{itemize}
-		\item Potential HW:
-			\begin{itemize}
-				\item Clean some messy data sets.
-			\end{itemize}
-	\end{itemize}
-	
-	
-	\noindent
 	
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 3: Supervised Learning - Regression 1}}
+	\textit{\large{Day 2: Supervised Learning - Regression 1}}
 	
 	\noindent
 	In this lesson we start supervised learning with regression modeling.
@@ -117,12 +79,6 @@
 			\end{itemize}
 	\end{itemize}
 
-	\vspace{2mm}
-	\noindent
-	\textit{\large{Day 4: Supervised Learning: Regression 2}}
-	
-	\noindent
-	We build on Day 3 by extending the simple linear regression model to multiple predictors and nonlinear relationships between predictor and output. 
 	\begin{itemize}
 		\item More than one predictor: Multiple Linear Regression
 		\begin{itemize}
@@ -148,10 +104,13 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 5: Supervised Learning: Regression 3}}
+	\textit{\large{Day 3: Supervised Learning: Regression 2}}
 	
 	\noindent
-	In our final regression day we cover two additional regression algorithms, these address one solution to overfitting, regularization.
+	First complete anything that might be leftover from Day 2.
+	
+	\noindent
+	In regression day 2 we cover two additional regression algorithms, these address one solution to overfitting, regularization.
 	\begin{itemize}
 		\item Overfitting to the extreme
 			\begin{itemize}
@@ -179,7 +138,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 6: Supervised Learning: Classification 1}}
+	\textit{\large{Day 4: Supervised Learning: Classification 1}}
 	
 	\noindent
 	We will start off classification with a general outlay of the problem. We will then progress through the general classification workflow with logistic regression.
@@ -206,7 +165,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 7: Supervised Learning: Classification 2}}
+	\textit{\large{Day 5: Supervised Learning: Classification 2}}
 	
 	\noindent
 	In today's lesson we learn about tree based methods for classification. We start by building a decision tree model and then branch into random forest models.
@@ -244,7 +203,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 8: Supervised Learning: Classification 3}}
+	\textit{\large{Day 6: Supervised Learning: Classification 3}}
 	
 	\noindent
 	In the final day of classification we wrap up with support vector machines. We will also discuss voting methods as a way to include all of the classification algorithms we have discussed.
@@ -271,7 +230,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 9: Unsupervised Learning: Dimensionality Reduction}}
+	\textit{\large{Day 7: Unsupervised Learning: Dimensionality Reduction}}
 	
 	\noindent
 	To start off the unsupervised learning portion of the course we discuss the differences between supervised and unsupervised learning. We then present dimensionality reduction techniques.
@@ -293,6 +252,12 @@
 				\item Example for visualization,
 				\item Example for feature extraction.
 			\end{itemize}
+		\item Extensions of PCA:
+			\begin{itemize}
+				\item Multiple correspondence analysis,
+				\item Sparse PCA,
+				\item Kernel PCA.
+			\end{itemize}
 		\item A Sampling of manifold techniques:
 			\begin{itemize}
 				\item Isomap,
@@ -301,7 +266,7 @@
 		\item Potential HW:
 			\begin{itemize}
 				\item Use PCA to extract import features from a dataset,
-				\item Introduce kernel or sparse PCA,
+				\item Dive deeper into kernel or sparse PCA,
 				\item Introduce an additional manifold technique.
 				\item Work through an anomaly detection example using dimensionality reduction.
 			\end{itemize}
@@ -309,7 +274,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 10: Unsupervised Learning: Clustering}}
+	\textit{\large{Day 8: Unsupervised Learning: Clustering}}
 	
 	\noindent
 	We complete the unsupervised learning section with a discussion on clustering techniques.
@@ -338,6 +303,10 @@
 			\item Evaluating the results,
 			\item Advantages and disadvantages.
 		\end{itemize}
+		\item Mixed-membership clustering models:
+		\begin{itemize}
+			\item Gaussian mixture models.
+		\end{itemize}
 		\item Potential HW:
 		\begin{itemize}
 			\item Apply each of the clustering algorithms to different data sets,
@@ -349,22 +318,59 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 11: Presenting Results}}
+	\textit{\large{Day 9: Neural Networks 1}}
+		\begin{itemize}
+			\item The Perceptron
+				\begin{itemize}
+					\item The model,
+					\item Simple example of perceptron as binary classifier,
+					\item Deficiencies - no XOR.
+				\end{itemize}
+			\item TBD
+		\end{itemize}
 	
 	\noindent 
-	In this day we discuss more advanced plotting techniques that can help participants communicate their results to others. We will also cover any presentation tips using pandas that have not already been covered.
-	\begin{itemize}
-		\item More advanced matplotlib.
-		\item Diving into seaborn.
-		\item Introduction to interactive plotting in bokeh.
-		\item Odds and ends left to cover with pandas.
-	\end{itemize}
+	
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 12: Leave this day open for spillover from previous days}}
+	\textit{\large{Day 10: Neural Networks 2}}
+		\begin{itemize}
+			\item TBD
+		\end{itemize}
+	
+	
 	
 	\vspace{2mm}
 	\noindent
+	\textit{\large{Day 11: Time Series Data 1}} 
+		\begin{itemize}
+			\item Examples of Time Series Data.
+			\item Datetime in python.
+			\item Issues with applying our prior machine learning model to time series data.
+			\item Differences between forecasting and supervised learning.
+			\item Simple Forecasting Methods.
+			\item Potential Homework:
+				\begin{itemize}
+					\item Clean and visualize time series data,
+					\item Convert time series data between different scales,
+					\item Use simple forecasting methods to make forecasts.
+				\end{itemize}
+		\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 12: Time Series Data 2}} 
+		\begin{itemize}
+			\item Time regression models.
+			\item Smoothing methods.
+			\item Exponential smoothing.
+			\item Potential Homework:
+			\begin{itemize}
+				\item Return to the time series data from day 11, build a better forecast.
+			\end{itemize}
+		\end{itemize}
+	
+	
 	\textbf{Note: it is also important for us to cover being able to run code from terminal/command line. So working that in at some point would be good.}
 \end{document}

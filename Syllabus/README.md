@@ -62,6 +62,18 @@ Below we outline the specific topics we will be covering in this boot camp.
         <li>DBScan</li>
       </ul>
   </ul>  
+<li>Forecasting for Time Series Data</li>
+  <ul>
+    <li>Handling and cleaning time series data</li>
+    <li>Simple forecasting methods</li>
+    <li>Time series regression models</li>
+    <li>Smoothing</li>
+    <li>Exponential Smoothing</li>
+  </ul>
+<li>Neural Networks</li>
+  <ul>
+    <li>Perceptrons</li>
+  </ul>
 <li>Presenting Results</li>
   <ul>
     <li>Pandas for presentation</li>
@@ -117,4 +129,7 @@ All lectures and homeworks draw upon the material presented in the following boo
   <li><a href = "https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/">Hands-On Machine Learning with Scikit-Learn and TensorFlow</a></li>
   <li><a href = "https://www.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/">Hands-On Unsupervised Learning Using Python</a></li>
   <li><a href = "http://themlbook.com">The Hundred-Page Machine Learning Book</a></li>
+  <li><a href = "https://otexts.com/fpp2/">Forecasting: Principles and Practice</a></li>
+  <li><a href = "https://link.springer.com/chapter/10.1007/978-3-319-94463-0_1">
+      An Introduction to Neural Networks</a></li>
 </ul>
