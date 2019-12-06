@@ -23,7 +23,7 @@
 		\item Explain APIs in a nutshell.
 		\item Give one or two examples of python API packages:
 			\begin{itemize}
-				\item One where no security credentials are needed,
+				\item One where no security credentials are needed.
 				\item One that requires security credentials.
 			\end{itemize}
 		\item Common methods of storing data,
@@ -56,26 +56,21 @@
 	\begin{itemize}
 		\item What is supervised learning?
 			\begin{itemize}
-				\item Using ``labeled'' data to teach a machine to generalize trends in data to ``unlabeled'' data,
+				\item Using ``labeled'' data to teach a machine to generalize trends in data to ``unlabeled'' data.
 				\item Two flavors of problem: Regression and Classification.
 			\end{itemize}
 		\item What is regression?
 			\begin{itemize}
 				\item In a machine learning setting, problems where the ``labeled'' data has a continuous measure, for example predicting opening weekend ticket sales.
-				\item Be careful not to confuse with a more statistical definition, for example, logistic regression is a statistical regression model, but is most often used as a classification algorithm
+				\item Be careful not to confuse with a more statistical definition, for example, logistic regression is a statistical regression model, but is most often used as a classification algorithm.
 			\end{itemize}
 		\item The most basic model: Simple Linear Regression
 			\begin{itemize}
 				\item Introduce model, explain assumptions.
 				\item Give example using real data set.
-				\item Introduce Training-Test Split
-				\item Interpreting results
-				\item Model validation for Simple Linear Regression
-			\end{itemize}
-		\item Potential HW
-			\begin{itemize}
-				\item Build SLR model with new data
-				\item Lay seeds for why you might want ``multiple'' training-test splits, i.e. cross-validation
+				\item Introduce Training-Test Split.
+				\item Interpreting results.
+				\item Model validation for Simple Linear Regression.
 			\end{itemize}
 	\end{itemize}
 
@@ -97,6 +92,7 @@
 		\end{itemize}
 		\item Potential HW
 		\begin{itemize}
+			\item Build SLR model with new data.
 			\item Build the ``best'' regression model possible for a given data set using the techniques covered to this point
 		\end{itemize}
 	\end{itemize}
@@ -114,58 +110,88 @@
 	\begin{itemize}
 		\item Overfitting to the extreme
 			\begin{itemize}
-				\item Show an example of overfitting with MLR using synthetic random data,
+				\item Show an example of overfitting with MLR using synthetic random data.
 				\item Show an example of overfitting with polynomial regression using synthetic data.
 			\end{itemize}
 		\item Cost functions
 			\begin{itemize}
-				\item Remind students of goal in least squares,
-				\item If not already defined, define cost/loss functions
+				\item Remind students of goal in least squares.
+				\item If not already defined, define cost/loss functions.
 			\end{itemize}
 		\item Fighting overfitting
 			\begin{itemize}
-				\item Add penalty term to cost,
-				\item Introduce concept of hyperparameter
+				\item Add penalty term to cost.
+				\item Introduce concept of hyperparameter.
 			\end{itemize}
 		\item Ridge Regression
 		\item Lasso
-		\item Potential HW:
+		\item Potential HW
 			\begin{itemize}
 				\item Wrap up regression section by introducing local regression,
 				\item Introduce idea of logistic regression.
 			\end{itemize}
 	\end{itemize}
+
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 4: Time Series Data 1}} 
+	\begin{itemize}
+		\item Examples of Time Series Data.
+		\item Datetime in python.
+		\item Differences between forecasting and supervised learning.
+		\item Simple Forecasting Methods.
+		\item Regression for Time Series.
+		\item Evaluating Forecasting Models.
+		\item Potential Homework:
+		\begin{itemize}
+			\item Clean and visualize time series data,
+			\item Convert time series data between different scales,
+			\item Use simple forecasting methods to make forecasts.
+		\end{itemize}
+	\end{itemize}
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 4: Supervised Learning: Classification 1}}
+	\textit{\large{Day 5: Time Series Data 2}} 
+	\begin{itemize}
+		\item ARIMA Models.
+		\item Dynamic Regression.
+		\item Potential Homework:
+		\begin{itemize}
+			\item Return to the time series data from day 4, build a better forecast.
+		\end{itemize}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\noindent
+	\textit{\large{Day 6: Supervised Learning: Classification 1}}
 	
 	\noindent
 	We will start off classification with a general outlay of the problem. We will then progress through the general classification workflow with logistic regression.
 	
 	\noindent
 	\begin{itemize}
-		\item Explaining the Classification Problem
+		\item Explaining the Classification Problem.
 		\item Logistic Regression
 			\begin{itemize}
-				\item The model,
-				\item General model validation for classification problems,
-				\item Precision vs. recall,
-				\item Confusion matrix,
-				\item ROC curve
+				\item The model.
+				\item General model validation for classification problems.
+				\item Precision vs. recall.
+				\item Confusion matrix.
+				\item ROC curve.
 			\end{itemize}
-		\item Nearest Neighbors
+		\item Nearest Neighbors.
 		\item Potential HW
 			\begin{itemize}
-				\item Build a logistic regression model,
-				\item Use CV to tune number of neighbors,
+				\item Build a logistic regression model.
+				\item Use CV to tune number of neighbors.
 				\item Introduce Naive Bayes.
 			\end{itemize}
 	\end{itemize}
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 5: Supervised Learning: Classification 2}}
+	\textit{\large{Day 7: Supervised Learning: Classification 2}}
 	
 	\noindent
 	In today's lesson we learn about tree based methods for classification. We start by building a decision tree model and then branch into random forest models.
@@ -177,60 +203,60 @@
 			\end{itemize}
 		\item Classification Decision Trees:
 			\begin{itemize}
-				\item The algorithm,
-				\item Give an example,
+				\item The algorithm.
+				\item Give an example.
 				\item Advantages and Disadvantages.
 			\end{itemize}
 		\item Methods of Improving Decision Trees:
 			\begin{itemize}
-				\item Bagging,
-				\item Pasting,
+				\item Bagging.
+				\item Pasting.
 				\item Boosting.
 			\end{itemize}
 		\item Random Forest Models
 			\begin{itemize}
-				\item The algorithm,
-				\item Extend decision tree example,
+				\item The algorithm.
+				\item Extend decision tree example.
 				\item Advantages and Disadvantages.
 			\end{itemize}
-		\item Potential HW:
+		\item Potential HW
 			\begin{itemize}
-				\item Build a decision tree model,
-				\item Build a Random Forest model,
+				\item Build a decision tree model.
+				\item Build a Random Forest model.
 				\item Walk through using decision trees for regression tasks.
 			\end{itemize}
 	\end{itemize}
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 6: Supervised Learning: Classification 3}}
+	\textit{\large{Day 8: Supervised Learning: Classification 3}}
 	
 	\noindent
 	In the final day of classification we wrap up with support vector machines. We will also discuss voting methods as a way to include all of the classification algorithms we have discussed.
 	\begin{itemize}
-		\item SVMs:
+		\item SVMs
 			\begin{itemize}
-				\item Separating Hyperplanes,
-				\item The maximal margin classifier,
-				\item Support vector classifier,
-				\item Support machines
+				\item Separating Hyperplanes.
+				\item The maximal margin classifier.
+				\item Support vector classifier.
+				\item Support machines.
 			\end{itemize}
 		\item Voting Methods
 			\begin{itemize}
-				\item Summarize all techniques up to the point,
-				\item Explain idea behind the voting method,
+				\item Summarize all techniques up to the point.
+				\item Explain idea behind the voting method.
 				\item Give example.
 			\end{itemize}
-		\item Potential HW:
+		\item Potential HW
 			\begin{itemize}
-				\item Solve a classification problem using SVMs,
+				\item Solve a classification problem using SVMs.
 				\item Solve a classification problem using multiple algorithms, compare and contrast them, and then combine them into a single voting algorithm.
 			\end{itemize}
 	\end{itemize}
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 7: Unsupervised Learning: Dimensionality Reduction}}
+	\textit{\large{Day 9: Unsupervised Learning: Dimensionality Reduction}}
 	
 	\noindent
 	To start off the unsupervised learning portion of the course we discuss the differences between supervised and unsupervised learning. We then present dimensionality reduction techniques.
@@ -238,35 +264,35 @@
 		\item Differences between supervised and unsupervised learning.
 		\item What is dimensionality reduction? Why do it?
 			\begin{itemize}
-				\item Reducing the number of variables in our data set,
-				\item Memory purposes,
-				\item Algorithm speed,
-				\item Data Visualization,
+				\item Reducing the number of variables in our data set.
+				\item Memory purposes.
+				\item Algorithm speed.
+				\item Data Visualization.
 				\item Feature Extraction.
 			\end{itemize}
-		\item Principal Components Analysis (PCA):
+		\item Principal Components Analysis (PCA)
 			\begin{itemize}
-				\item Concept,
-				\item The algorithm,
-				\item Interpretation of results
-				\item Example for visualization,
+				\item Concept.
+				\item The algorithm.
+				\item Interpretation of results.
+				\item Example for visualization.
 				\item Example for feature extraction.
 			\end{itemize}
-		\item Extensions of PCA:
+		\item Extensions of PCA
 			\begin{itemize}
-				\item Multiple correspondence analysis,
-				\item Sparse PCA,
+				\item Multiple correspondence analysis.
+				\item Sparse PCA.
 				\item Kernel PCA.
 			\end{itemize}
-		\item A Sampling of manifold techniques:
+		\item A Sampling of manifold techniques
 			\begin{itemize}
-				\item Isomap,
+				\item Isomap.
 				\item t-SNE.
 			\end{itemize}
-		\item Potential HW:
+		\item Potential HW
 			\begin{itemize}
-				\item Use PCA to extract import features from a dataset,
-				\item Dive deeper into kernel or sparse PCA,
+				\item Use PCA to extract import features from a dataset.
+				\item Dive deeper into kernel or sparse PCA.
 				\item Introduce an additional manifold technique.
 				\item Work through an anomaly detection example using dimensionality reduction.
 			\end{itemize}
@@ -274,7 +300,7 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 8: Unsupervised Learning: Clustering}}
+	\textit{\large{Day 10: Unsupervised Learning: Clustering}}
 	
 	\noindent
 	We complete the unsupervised learning section with a discussion on clustering techniques.
@@ -284,33 +310,33 @@
 			\item Grouping of unlabeled data based on some sort of similarity measure.
 			\item Why might we want to do this?
 		\end{itemize}
-		\item k-means clustering:
+		\item k-means clustering
 		\begin{itemize}
-			\item Give algorithm,
-			\item How to evaluate results,
+			\item Give algorithm.
+			\item How to evaluate results.
 			\item Advantages and disadvantages.
 		\end{itemize}
-		\item Hierarchical clustering:
+		\item Hierarchical clustering
 		\begin{itemize}
-			\item The algorithm,
-			\item Dendograms,
-			\item Evaluating the results,
+			\item The algorithm.
+			\item Dendograms.
+			\item Evaluating the results.
 			\item Advantages and disadvantages.
 		\end{itemize}
-		\item DBScan:
+		\item DBScan
 		\begin{itemize}
-			\item The algorithm,
-			\item Evaluating the results,
+			\item The algorithm.
+			\item Evaluating the results.
 			\item Advantages and disadvantages.
 		\end{itemize}
-		\item Mixed-membership clustering models:
+		\item Mixed-membership clustering models
 		\begin{itemize}
 			\item Gaussian mixture models.
 		\end{itemize}
-		\item Potential HW:
+		\item Potential HW
 		\begin{itemize}
-			\item Apply each of the clustering algorithms to different data sets,
-			\item Which algorithms perform ``best'' on what kinds of data sets,
+			\item Apply each of the clustering algorithms to different data sets.
+			\item Which algorithms perform ``best'' on what kinds of data sets.
 			\item Work through a group segmentation example using clustering.
 		\end{itemize}
 	\end{itemize}
@@ -318,59 +344,35 @@
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 9: Neural Networks 1}}
+	\textit{\large{Day 11: Basic Neural Networks}}
+	
+		\noindent
+		On this day we will go into the basics of the neural network model. However, we will not dive into deep learning, this subject deserves a boot camp of its own to cover it properly.
 		\begin{itemize}
-			\item The Perceptron
+			\item Inspiration for neural nets
+			\item The perceptron
 				\begin{itemize}
-					\item The model,
-					\item Simple example of perceptron as binary classifier,
-					\item Deficiencies - no XOR.
+					\item The model.
+					\item The perceptron as a binary classifier.
+					\item Why isn't this good enough? no XOR.
 				\end{itemize}
-			\item TBD
+			\item Shallow neural nets in sklearn.
+			\item Introducing deep learning conceptually.
+			\item Give resources to those looking to learn more about deep learning.
 		\end{itemize}
-	
-	\noindent 
 	
 	
 	\vspace{2mm}
 	\noindent
-	\textit{\large{Day 10: Neural Networks 2}}
-		\begin{itemize}
-			\item TBD
-		\end{itemize}
-	
-	
-	
-	\vspace{2mm}
+	\textit{\large{Day 12: Production Day}}
+		
 	\noindent
-	\textit{\large{Day 11: Time Series Data 1}} 
-		\begin{itemize}
-			\item Examples of Time Series Data.
-			\item Datetime in python.
-			\item Issues with applying our prior machine learning model to time series data.
-			\item Differences between forecasting and supervised learning.
-			\item Simple Forecasting Methods.
-			\item Potential Homework:
-				\begin{itemize}
-					\item Clean and visualize time series data,
-					\item Convert time series data between different scales,
-					\item Use simple forecasting methods to make forecasts.
-				\end{itemize}
-		\end{itemize}
-	
-	\vspace{2mm}
-	\noindent
-	\textit{\large{Day 12: Time Series Data 2}} 
-		\begin{itemize}
-			\item Time regression models.
-			\item Smoothing methods.
-			\item Exponential smoothing.
-			\item Potential Homework:
-			\begin{itemize}
-				\item Return to the time series data from day 11, build a better forecast.
-			\end{itemize}
-		\end{itemize}
+	On the final day of the boot camp industry mentors will come and instruct participants on how to implement these techniques in an actual production environment.
 	
 	
-	\textbf{Note: it is also important for us to cover being able to run code from terminal/command line. So working that in at some point would be good.}
+	
+	
+	
+	
+	
 \end{document}
