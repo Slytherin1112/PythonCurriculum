@@ -73,6 +73,7 @@ Below we outline the specific topics we will be covering in this boot camp.
 <li>Neural Networks</li>
   <ul>
     <li>Perceptrons</li>
+    <li>Shallow Networks</li>
   </ul>
 <li>Presenting Results</li>
   <ul>
