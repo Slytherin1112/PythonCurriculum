@@ -3,3 +3,5 @@
 *.synctex.gz
 *.out
 get_auth.py
+*.ipynb_checkpoints/
+*__pycache__/
