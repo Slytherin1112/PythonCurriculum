@@ -16,6 +16,7 @@ was found with a quick Google search.
 
 These materials should be completed in the following order.
 <ol>
+    <li>Start Here! - My First Jupyter Notebook</li>
     <li>Python Basics</li>
     <li>pandas</li>
     <li>numpy</li>
